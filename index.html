@@ -6,39 +6,39 @@
         <title>INÍCIO</title>
 
         <link rel="stylesheet" href="./css/index.css">
-        
-
-        
-
     </head>
 
     
     <body>
-    <div class="corpo">
-        <div class="cabecalho">
-            <img src="./img/banner.jpg" alt="banner" title="banner girassol">
+    <div class="box-pai">
+        <div class="box-header">
+            <div class="box box-child1">
+                <img src="./img/banner.jpg" alt="banner" title="banner girassol">
+            </div>
+            <div class="box box-child2">
                 <nav class="menu">
                     <a href="./index.html">Home</a>
                     <a href="./about.html">ABOUT US</a>
                     <a href="./services.html">SERVICES</a>
                     <a href="./solutions.html">SOLUTIONS</a>
                     <a href="./contact.html">Contact US</a>
+                    <input type="text" id="busca" name="busca">
                 </nav>
-
+            </div>
         </div>
 
-        <div class="conteudo">
-            <div class="texto" id="joaninha">
-                <h1>News and Events</h1>
+        <div class="box-conteudo">
+            <div class="box box-child3">
+                <h2 class="titulo">News and Events</h2>
             
                 <img src="./img/joaninha.jpg" alt="joaninha" title="imagem joaninha">
-                18/08/2021 - Citudin
+                <p class="sub-titulo">18/08/2021 - Citudin</p>
                 <p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et 
                     pellentesque lorem sapien vel neque. Maecenas auctor, nisi id eleifend pharetra, velit 
                     quam tempus massa, ac lacinia quam turpis vel nunc. <a href="">In erat enim, tincidunt eget.</a></p>
                 
                 <hr>
-                <h1>Our mission</h1>
+                <h2 class="titulo">Our mission</h2>
                 <ul><U>
                     <li>Sed nec justo sit amet metus</li>
                     <li>Cras semper adipiscing</li>
@@ -46,10 +46,11 @@
                     </U>
                 </ul>
             </div>
-            
-            <div class="texto" id="folha">
-                <h1>Company profile</h1>
-                <p><img class="cereja" src="./img/cerises.jpg" alt="cerejas vermelhas" title="cerejas">
+                
+            <div class="box box-child4" >
+                <h2 class="titulo">Company profile</h2>
+                <p><p class="sub-titulo">Lorem ipsum dolor sit amet</p>
+                    <img class="cereja" src="./img/cerises.jpg" alt="cerejas vermelhas" title="cerejas">
                 Lorem ipsum dolor sit amet
                 Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla
                 , et pellentesque lorem sapien vel neque. Maecenas auctor, nisi id eleifend pharetra
@@ -64,20 +65,23 @@
                 lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque lorem sapien vel neque. Maecenas auctor, nisi id eleifend pharetra, velit quam tempus massa
                 , ac lacinia quam turpis vel nunc. In erat enim, tincidunt eget.
 
-                <h1>Featured Services</h1>
+                <h2 class="titulo">Featured Services</h2>
+                <div class="sub-titulo">
                 <img class="folha" src="./img/leaf.png" alt="folha verde" title="folha">
-                <p>
                 Lorem ipsum dolor sit amet
-                <br>
+                </div>
+                <p>
                 Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et 
-                pellentesque lorem sapien vel neque. Maecenas auctor. <b>Praesent blandit</b> cursus Maecenas auctor
+                pellentesque lorem sapien vel neque. Maecenas auctor. <p>Praesent blandit</p> cursus Maecenas auctor
                 </p>
 
                 </p>
             </div>
-        </div>   
-
-        <p>Copyright © 2021 YOUR COMPANY</p>
+        </div>
+        <div class="box box-footer">
+           <p>Copyright © 2021 YOUR COMPANY</p>
+        </div>
+    </div>   
     </div>
     </body>
 </html>

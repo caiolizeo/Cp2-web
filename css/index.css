@@ -1,52 +1,110 @@
-.corpo{
+.box-pai{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 20%;
+    font-family: arial, sans-serif;
+}
+
+.box {
+
+}
+
+.box-child2{
+    /* Menu */
+    background-color: #8FA819;
+    
+}
+
+.box-conteudo{
+    /* Joaninha + Cereja */
+    display: flex;
+    
+}
+
+.box-child3{
+    /* Joaninha */
+    display: block;
+    flex-basis: 20vw;
+    margin-right: 20px; 
+    min-width: 13vw;   
+    
+}
+
+.box-child4{
+    /* Cereja */
+    display: block;
+    flex-grow: 3;
+    
+}
+
+.box-footer{
+    background-color: #8FA819;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid #8FA819;
+    background-color: #8FA819;
+}
+
+.titulo{
+    color: #8FA819;
+}
+
+.sub-titulo{
+    color: #3F71B6;
+    font-weight: bold;
+}
+
+/*
+.box-geral{
     width: 50%;
     padding: 5%;
     margin-left: 20%;
     background-color: bisque;
+    border: solid 2px black;
+    
 
 }
-.cabecalho{
-    /*background-color: #8FA819;
-    */
-   
+
+.box{
+    display: block;
+    width: 100vw;
+    min-width: 5vw;
+    height: 15vh;
+    padding: 1vh 1vw; 
+}
+.box-conteudo{
+    display: flex;
+    flex-direction: column-reverse;
+    width: ;
+}
+
+
+.box1{
+    
+}
+.box2{
+    
     flex direction: row;
-    margin: px;
-    padding: 10vw 10vh;
 
-}
-
-.menu{
     background-color: #8FA819;
+    display: block;
+    width: 100vw;
+}
+
+.box3{    
+    
     display: flex;
+    width: 100vw;
+    background-color: blueviolet;
 }
 
-.conteudo{
+.box4{
+    
     display: flex;
-    
+    width: 100vw;
+    background-color: crimson;
 }
-
-.texto{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    width: 500px;
-    
-    
-}
-
-#joaninha{
-    
-    background-color: brown;
-    flex-grow: 1;
-    width: 20px;
-    height: 100px;
-}
-
-#folha{
-    
-    
-    background-color: darkblue;
-    flex-grow: 1;
-    width: 30px;
-    height: 100px;
-}
+*/
