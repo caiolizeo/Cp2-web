@@ -1,17 +1,31 @@
 .box-pai{
     display: flex;
     flex-direction: column;
-    width: 45%;
-    margin-left: 20%;
     font-family: arial, sans-serif;
 }
 
+@media(min-width:720px){
+    .box-pai{
+        display: flex;
+        width: 45%;
+        margin-left: 20%;
+        flex-direction: column;
+        font-family: arial, sans-serif;
+    }
+}
+
 .box {
+    align-items: baseline;
+    
+}
+.box-child1{
+
 
 }
 
 .box-child2{
     /* Menu */
+    border: none;
     background-color: #8FA819;
     
 }
@@ -22,12 +36,20 @@
     
 }
 
+@media(max-width:720px){
+    .box-conteudo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+
 .box-child3{
     /* Joaninha */
     display: block;
-    flex-basis: 20vw;
     margin-right: 20px; 
-    min-width: 13vw;   
+
     
 }
 
@@ -41,11 +63,17 @@
 .box-footer{
     background-color: #8FA819;
     text-align: center;
+    color: #fff;
 }
 
 hr{
     border: 2px solid #8FA819;
     background-color: #8FA819;
+}
+
+img{
+    max-width: 100%;
+    border: none;
 }
 
 .titulo{
@@ -57,54 +85,24 @@ hr{
     font-weight: bold;
 }
 
-/*
-.box-geral{
-    width: 50%;
-    padding: 5%;
-    margin-left: 20%;
-    background-color: bisque;
-    border: solid 2px black;
-    
-
-}
-
-.box{
-    display: block;
-    width: 100vw;
-    min-width: 5vw;
-    height: 15vh;
-    padding: 1vh 1vw; 
-}
-.box-conteudo{
-    display: flex;
-    flex-direction: column-reverse;
-    width: ;
-}
-
-
-.box1{
-    
-}
-.box2{
-    
-    flex direction: row;
-
+button{
+    height: 45px;
+    color: #ffffff;
+    font-size: 11px ;
     background-color: #8FA819;
-    display: block;
-    width: 100vw;
+    border: none;
+    border-bottom: 5px solid #FFCD04;
+    border-top: 5px solid red;
+    border-radius: 0%;
+    
 }
 
-.box3{    
-    
-    display: flex;
-    width: 100vw;
-    background-color: blueviolet;
+button:hover{
+    color: #ffffff;
+    background-color: #FFCD04;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 5px solid #FFCD04;
+    border-top: 5px solid #FFCD04;;
+        
 }
-
-.box4{
-    
-    display: flex;
-    width: 100vw;
-    background-color: crimson;
-}
-*/
