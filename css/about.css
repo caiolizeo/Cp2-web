@@ -4,7 +4,7 @@
     font-family: arial, sans-serif;
 }
 
-@media(min-width:720px){
+@media(min-width:884px){
     .box-pai{
         display: flex;
         width: 45%;
@@ -28,7 +28,7 @@
     
 }
 
-@media(max-width:720px){
+@media(max-width:884px){
     .box-conteudo{
         display: flex;
         flex-direction: row;
@@ -90,7 +90,7 @@ button{
     
 }
 
-@media(min-width:720px) {
+@media(min-width:884px) {
     button{
         height: 45px;
         color: #ffffff;
