@@ -14,16 +14,20 @@
     }
 }
 
+.box-header{
+    display: flex;
+}
 .box-child2{
     /* Menu */
-    
     border: none;
     background-color: #8FA819;
+    width: auto;
+    height: auto;
     
 }
 
 .box-conteudo{
-    /* Joaninha + Cereja */
+    /* Joaninha + folha */
     display: flex;
     
 }
@@ -115,7 +119,10 @@ button:hover{
 }
 
 .menu{
+    display: block;
     height: 45px;
+    justify-content: space-between;
+    
 }
 
 .search1{
@@ -126,4 +133,19 @@ button:hover{
 .menu a {
   color: #ffffff;
   text-decoration: none;
+  align-items: self-end;
 }
+
+.menu input{
+    background-color: white;
+    height: 80%;
+    width: 40%;
+    
+
+}
+
+.pesquisa{
+    display: block;
+    float: right;
+    height: 45px;
+}       
