@@ -41,11 +41,13 @@
     /* Joaninha */
     display: block;
     margin-right: 20px; 
-
+    text-align: justify;
     
 }
 
-
+.imgP{
+    float:left;
+}
 
 .box-child4{
     /* Cereja */
@@ -79,6 +81,7 @@ img{
 .sub-titulo{
     color: #3F71B6;
     font-weight: bold;
+    font-size: 15px;
 }
 
 button{
