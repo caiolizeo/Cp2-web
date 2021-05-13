@@ -79,6 +79,7 @@ img{
 .sub-titulo{
     color: #3F71B6;
     font-weight: bold;
+    font-size: 15px;
 }
 
 button{
@@ -131,3 +132,11 @@ button:hover{
   text-decoration: none;
 }
 
+.par1{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.mission {
+    font-size: 15px;
+}

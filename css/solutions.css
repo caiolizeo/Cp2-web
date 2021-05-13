@@ -80,6 +80,7 @@ img{
 .sub-titulo{
     color: #3F71B6;
     font-weight: bold;
+    font-size: 15px;
 }
 
 button{
@@ -130,4 +131,8 @@ button:hover{
 .menu a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.par1{
+    font-size: 15px;
 }

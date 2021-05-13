@@ -70,6 +70,7 @@ img{
     border: none;
 }
 
+
 .titulo{
     color: #8FA819;
 }
@@ -77,6 +78,7 @@ img{
 .sub-titulo{
     color: #3F71B6;
     font-weight: bold;
+    font-size: 15px;
 }
 
 button{
@@ -115,6 +117,7 @@ button:hover{
         
 }
 
+
 .menu{
     height: 45px;
 }
@@ -137,7 +140,12 @@ button:hover{
     float: left;
 }
 
-.textoC{
-    margin-right: 5px;
+
+.mission {
+    font-size: 15px;
 }
 
+.par1 {
+    font-size: 15px;
+    text-align: justify;
+}
