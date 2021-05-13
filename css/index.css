@@ -120,6 +120,14 @@ button:hover{
 
 .menu{
     height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
 }
 
 .search1{
@@ -130,6 +138,24 @@ button:hover{
 .menu a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.search{
+    display: flex;
+   justify-content: center;
+    
+}
+
+input[type=text]
+{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .par1{
