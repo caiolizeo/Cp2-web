@@ -46,7 +46,6 @@
 }
 
 
-
 .box-child4{
     /* Cereja */
     display: block;  
@@ -129,5 +128,17 @@ button:hover{
 .menu a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.cedros{
+    float: right;
+}
+
+.cachoeira {
+    float: left;
+}
+
+.textoC{
+    margin-right: 5px;
 }
 
