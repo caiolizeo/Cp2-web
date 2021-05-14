@@ -1,10 +1,12 @@
 .box-pai{
     display: flex;
+    width: 50%;
+    margin-left: 25%;
     flex-direction: column;
     font-family: arial, sans-serif;
 }
 
-@media(min-width:720px){
+@media(max-width:720px){
     .box-pai{
         display: flex;
         width: 45%;
@@ -173,10 +175,6 @@ input[type=text]
 
 .mission {
     font-size: 15px;
-}
-
-.XXX{
-    justify-content: space-between;
 }
 
 .Mtexto {
