@@ -4,6 +4,7 @@
     font-family: arial, sans-serif;
 }
 
+
 @media(min-width:720px){
     .box-pai{
         display: flex;
@@ -176,4 +177,8 @@ input[type=text]
 
 .XXX{
     justify-content: space-between;
+}
+
+.Mtexto {
+    margin-left: 11px;
 }

@@ -57,6 +57,8 @@
 
 
 
+
+
 .box-footer{
     display: block;
     background-color: #8FA819;
@@ -177,4 +179,17 @@ input[type=text]
 
 .XXX{
     justify-content: space-between;
+}
+
+.Mtexto {
+    margin-left: 11px;
+}
+
+.cedros{
+    float: right;
+    margin: 10px;
+}
+.cachoeira{
+    float: left;
+    margin-right: 10px;
 }

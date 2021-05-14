@@ -73,6 +73,7 @@ hr{
 
 .titulo{
     color: #8FA819;
+    line-height: 1px;
 }
 
 .sub-titulo{
@@ -176,4 +177,12 @@ input[type=text]
 
 .XXX{
     justify-content: space-between;
+}
+
+.Mtexto {
+    margin-left: 15px;
+}
+
+.br{
+    margin-top: 35px;
 }

@@ -29,6 +29,8 @@
 .box-conteudo{
     /* Joaninha + Cereja */
     display: flex;
+    margin-left: 25px;
+width: 100%;
     
 }
 
@@ -73,12 +75,14 @@ hr{
 
 .titulo{
     color: #8FA819;
+    line-height: 2px;
 }
 
 .sub-titulo{
     color: #3F71B6;
     font-weight: bold;
     font-size: 15px;
+    
 }
 
 button{
@@ -177,3 +181,19 @@ input[type=text]
 .XXX{
     justify-content: space-between;
 }
+
+
+.MTitulo{
+    margin-left: 12px;
+}
+
+.imgP{
+    float: left;
+    margin-left: 12px;
+}
+
+.Espac{
+    margin-top: 90px;
+}
+
+
