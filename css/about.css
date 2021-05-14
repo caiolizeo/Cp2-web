@@ -4,7 +4,7 @@
     font-family: arial, sans-serif;
 }
 
-@media(min-width:884px){
+@media(min-width:720px){
     .box-pai{
         display: flex;
         width: 45%;
@@ -14,25 +14,25 @@
     }
 }
 
-.box-header{
-    display: flex;
-}
 .box-child2{
     /* Menu */
     border: none;
     background-color: #8FA819;
-    width: auto;
-    height: auto;
     
 }
 
+#gira {
+    width: 100%;
+}
+
+
 .box-conteudo{
-    /* Joaninha + folha */
+    /* Joaninha + Cereja */
     display: flex;
     
 }
 
-@media(max-width:884px){
+@media(max-width:720px){
     .box-conteudo{
         display: flex;
         flex-direction: row;
@@ -51,10 +51,11 @@
 
 .box-child4{
     /* Cereja */
-    display: block;
-    
-    
+    display: block;  
+    margin-left: 5px;
 }
+
+
 
 .box-footer{
     display: block;
@@ -68,10 +69,7 @@ hr{
     background-color: #8FA819;
 }
 
-img{
-    max-width: 100%;
-    border: none;
-}
+
 
 .titulo{
     color: #8FA819;
@@ -95,7 +93,7 @@ button{
     
 }
 
-@media(min-width:884px) {
+@media(min-width:720px) {
     button{
         height: 45px;
         color: #ffffff;
@@ -120,10 +118,16 @@ button:hover{
 }
 
 .menu{
-    display: block;
     height: 45px;
+    margin-left: 12px;
+    display: flex;
     justify-content: space-between;
-    
+}
+
+.menu div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
 }
 
 .search1{
@@ -134,22 +138,28 @@ button:hover{
 .menu a {
   color: #ffffff;
   text-decoration: none;
-  align-items: self-end;
 }
 
-.menu input{
-    background-color: white;
-    height: 80%;
-    width: 40%;
-    
-
+.search{
+   display: flex;
+   justify-content: center;
 }
 
-.pesquisa{
-    display: block;
-    float: right;
-    height: 45px;
-}       
+.searB{
+    margin-left: 20px;
+}
+
+input[type=text]
+{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 0px;
+    margin-bottom: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
 
 .par1{
     font-size: 15px;
@@ -159,3 +169,4 @@ button:hover{
 .mission {
     font-size: 15px;
 }
+

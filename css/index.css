@@ -16,11 +16,15 @@
 
 .box-child2{
     /* Menu */
-    
     border: none;
     background-color: #8FA819;
     
 }
+
+#gira {
+    width: 100%;
+}
+
 
 .box-conteudo{
     /* Joaninha + Cereja */
@@ -45,8 +49,6 @@
     
 }
 
-
-
 .box-child4{
     /* Cereja */
     display: block;  
@@ -67,10 +69,7 @@ hr{
     background-color: #8FA819;
 }
 
-img{
-    max-width: 100%;
-    border: none;
-}
+
 
 .titulo{
     color: #8FA819;
@@ -120,6 +119,15 @@ button:hover{
 
 .menu{
     height: 45px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
 }
 
 .search1{
@@ -132,6 +140,27 @@ button:hover{
   text-decoration: none;
 }
 
+.search{
+   display: flex;
+   justify-content: center;
+}
+
+.searB{
+    margin-left: 20px;
+}
+
+input[type=text]
+{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 0px;
+    margin-bottom: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
 .par1{
     font-size: 15px;
     text-align: justify;
@@ -140,3 +169,4 @@ button:hover{
 .mission {
     font-size: 15px;
 }
+
