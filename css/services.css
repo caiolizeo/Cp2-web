@@ -16,11 +16,15 @@
 
 .box-child2{
     /* Menu */
-    
     border: none;
     background-color: #8FA819;
     
 }
+
+#gira {
+    width: 100%;
+}
+
 
 .box-conteudo{
     /* Joaninha + Cereja */
@@ -40,10 +44,10 @@
 .box-child3{
     /* Joaninha */
     display: block;
-    margin-right: 20px;
+    margin-right: 20px; 
+
+    
 }
-
-
 
 .box-child4{
     /* Cereja */
@@ -65,10 +69,6 @@ hr{
     background-color: #8FA819;
 }
 
-img{
-    max-width: 100%;
-    border: none;
-}
 
 
 .titulo{
@@ -82,6 +82,7 @@ img{
 }
 
 button{
+    margin-left: 10px;
     height: 45px;
     color: #ffffff;
     font-size: 11px ;
@@ -117,10 +118,18 @@ button:hover{
         
 }
 
-
 .menu{
     height: 45px;
-}-1
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
 
 .search1{
     flex-direction: row-reverse;
@@ -132,20 +141,40 @@ button:hover{
   text-decoration: none;
 }
 
-.cedros{
-    float: right;
+.search{
+   display: flex;
+   justify-content: center;
 }
 
-.cachoeira {
-    float: left;
+.searA{
+    height: 45px;
+    width: 70px;
+    background-color: #e4d8d8;
+    margin-left: 30px;   
+}
+ 
+
+input[type=text]
+{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 0px;
+    margin-bottom: 4px;
+    outline: none;
+    box-sizing: border-box;
 }
 
+.par1{
+    font-size: 15px;
+    text-align: justify;
+}
 
 .mission {
     font-size: 15px;
 }
 
-.par1 {
-    font-size: 15px;
-    text-align: justify;
+.XXX{
+    justify-content: space-between;
 }
